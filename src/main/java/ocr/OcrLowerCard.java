@@ -20,9 +20,9 @@ import java.util.Map;
  */
 public abstract class OcrLowerCard {
 
-    private static final String APP_ID = "1258264506";
-    private static final String SECRET_ID = "AKIDNJPWj9m7NQEZijPsQo36YhorERnusmMh";
-    private static final String SECRE_KEY = "JV2ThPxs1073zjDVfZFc2PYzAVnPqE78";
+    private static final String APP_ID = "";
+    private static final String SECRET_ID = "";
+    private static final String SECRE_KEY = "";
     private static final String BUCKET_NAME = "";
     private static final ImageClient imageClient =
             new ImageClient(APP_ID, SECRET_ID, SECRE_KEY, ImageClient.NEW_DOMAIN_recognition_image_myqcloud_com/*默认使用新域名, 如果你是老用户, 请选择旧域名*/);
